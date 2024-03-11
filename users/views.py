@@ -113,5 +113,3 @@ class LogoutView(APIView):
         response.delete_cookie('refresh')
 
         return response
-
-#gh check repo
